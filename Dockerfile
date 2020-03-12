@@ -1,2 +1,2 @@
-FROM debian:buster
+FROM ubuntu
 ENTRYPOINT ["/bin/bash", "-c", "echo hello"]
